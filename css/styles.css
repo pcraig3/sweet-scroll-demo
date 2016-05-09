@@ -1,0 +1,96 @@
+/* ---------------------------------------------------------
+   HTML5 Bones
+   ---------------------------------------------------------*/
+
+    body {
+      font-family: Georgia, Georgia, serif;
+
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none;   /* Chrome/Safari/Opera */
+      -khtml-user-select: none;    /* Konqueror */
+      -moz-user-select: none;      /* Firefox */
+      -ms-user-select: none;       /* Internet Explorer/Edge */
+      user-select: none;
+      cursor: default;
+    }
+
+    main .section {
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .section .number {
+      font-size: 30em;
+      position: absolute;
+      top: -32%;
+      left: -3%;
+    }
+
+    .section .arrow {
+      color: white;
+      font-size: 18em;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+
+    footer a {
+      text-decoration: none;
+      font-style: normal;
+      font-size: 10px;
+      font-family: sans-serif;
+    }
+
+    footer a:link,
+    footer a:visited,
+    footer a:hover,
+    footer a:focus,
+    footer a:active {
+      color: #f2f2f2;
+    }
+
+/* ---------------------------------------------------------
+   Print styles
+   ---------------------------------------------------------*/
+@media print {
+    * {
+        color:#000 !important;
+        box-shadow:none !important;
+        text-shadow:none !important;
+        background:transparent !important;
+    }
+    html { background-color:#fff; }
+    /* Hide navigation */
+    nav { display:none; }
+
+    /* Show link destinations in brackets after the link text */
+    a[href]:after { content: " (" attr(href) ") "; }
+    a[href] {
+        font-weight:bold;
+        text-decoration:underline;
+        color:#06c;
+        border:none;
+    }
+    /* Don't show link destinations for JavaScript or internal links */
+    a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+
+    /* Show abbr title value in brackets after the text */
+    abbr[title]:after { content: " (" attr(title) ")"; }
+
+    figure {
+        margin-bottom:1em;
+        overflow:hidden;
+    }
+
+    figure img { border:1px solid #000; }
+}
