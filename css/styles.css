@@ -23,9 +23,10 @@
 
     .section .number {
       font-size: 30em;
+      line-height: .3em;
       position: absolute;
-      top: -32%;
-      left: -3%;
+      top: 0;
+      left: -.1em;
     }
 
     .section .arrow {
@@ -58,6 +59,44 @@
     footer a:active {
       color: #f2f2f2;
     }
+
+/* ---------------------------------------------------------
+   Print styles
+   ---------------------------------------------------------*/
+
+/* Phablets ----------- */
+@media(max-width : 768px) {
+
+    .section .number {
+      font-size: 22em;
+    }
+
+    .section .arrow {
+      font-size: 16em;
+    }
+}
+
+/* Big smartphones ----------- */
+@media(max-width : 480px) {
+
+    .section .number {
+      font-size: 6em;
+      line-height: .45em;
+      left: 0;
+    }
+
+    .section .arrow {
+      font-size: 19em;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 340px) {
+    .section .number {
+      font-size: 6em;
+    }
+}
+
 
 /* ---------------------------------------------------------
    Print styles
