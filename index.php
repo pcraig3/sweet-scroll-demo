@@ -66,8 +66,8 @@
         </address>
     </footer>
 
-    <script src="/node_modules/sweet-scroll/sweet-scroll.min.js"></script>
-    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="/js/scripts.js"></script>
+    <script src="node_modules/sweet-scroll/sweet-scroll.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
