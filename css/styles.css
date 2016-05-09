@@ -87,6 +87,7 @@
 
     .section .arrow {
       font-size: 19em;
+      line-height: .45em;
     }
 }
 
@@ -97,6 +98,13 @@
     }
 }
 
+/* Smartphones (landscape) ----------- */
+@media(max-device-width: 768px) and (orientation:landscape) {
+    .section .arrow {
+      font-size: 16em;
+      line-height: .45em;
+    }
+}
 
 /* ---------------------------------------------------------
    Print styles
