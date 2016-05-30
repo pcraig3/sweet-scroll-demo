@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>SCROLL DEMO 1</title>
+    <title>SCROLL DEMO 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link href="css/normalize.css" rel="stylesheet" media="all">
     <link href="css/styles.css" rel="stylesheet" media="all">
